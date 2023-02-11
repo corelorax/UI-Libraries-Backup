@@ -1,5 +1,10 @@
---// https://v3rmillion.net/showthread.php?tid=1201462#likepid8446918
---// https://v3rmillion.net/member.php?action=profile&uid=2974593
+--[[
+
+Credits:
+https://v3rmillion.net/showthread.php?tid=1201462#likepid8446918
+https://v3rmillion.net/member.php?action=profile&uid=2974593
+
+]]
 
 
 local httpService = game:GetService('HttpService')
