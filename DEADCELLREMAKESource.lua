@@ -5,7 +5,7 @@ local settings = {
 };
 
 local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Ui-Libs-Backups/main/extensions/drawing.lua"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Ui-Libs-Backups/main/extensions/tween.lua"))()
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Ui-Libs-Backups/main/extensions/tween.lua"))();
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
