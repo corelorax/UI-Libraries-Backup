@@ -292,10 +292,6 @@ do
     }
     
     library.blacklisted_keys = {
-        Enum.KeyCode.LeftShift,
-        Enum.KeyCode.RightShift,
-        Enum.KeyCode.LeftControl,
-        Enum.KeyCode.RightControl,
         Enum.KeyCode.LeftAlt,
         Enum.KeyCode.RightAlt,
         Enum.KeyCode.LeftSuper,
