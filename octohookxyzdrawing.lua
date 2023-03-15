@@ -3449,7 +3449,7 @@ function library:create_settings_tab(menu)
     local settings_main = tab:section({text = 'main', side = 1})
     local settings_config = tab:section({text = 'config', side = 2})
 
-    settings_main:keybind({text = 'open / close', flag = 'menubind', default = Enum.KeyCode.End, callback = function(bool)
+    settings_main:keybind({text = 'open / close', flag = 'menubind', default = Enum.KeyCode.RightControl, callback = function(bool)
         menu:set_open(bool, 0.1)
     end})
 
