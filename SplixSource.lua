@@ -162,7 +162,7 @@ function library:new(props)
 			BackgroundColor3 = color,
 			BorderColor3 = Color3.fromRGB(12, 12, 12),
 			BorderSizePixel = 1,
-			Size = UDim2.new(0,570,0,660),
+			Size = UDim2.new(0,550,0,650),
 			Position = UDim2.new(0.5,0,0.5,0),
 			Parent = screen
 		}
