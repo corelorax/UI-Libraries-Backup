@@ -4498,7 +4498,7 @@ function sections:configloader(props)
 			v.title:Remove()
 		end
 		createdbuttons = {}
-		for i,v in pairs(listfiles(loraxianhaxx)) do
+		for i,v in pairs(listfiles("loraxianhaxx")) do
 			if v:sub(-4) == ".cfg" then
 				if i == 1 then 
 					makebutton(v:sub(#tostring(folder)+2, -5),true)
@@ -4574,7 +4574,7 @@ function sections:configloader(props)
 	end)
 	--
 	save[3].MouseButton1Down:Connect(function()
-		writefile(loraxianhaxx..selected.name..".cfg", self.library:saveconfig())
+		writefile("loraxianhaxx"..selected.name..".cfg", self.library:saveconfig())
 		save[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		save[2].BorderColor3 = Color3.fromRGB(12,12,12)
@@ -4583,7 +4583,7 @@ function sections:configloader(props)
 	end)
 	--
 	create[3].MouseButton1Down:Connect(function()
-		writefile(loraxianhaxx..currentname..".cfg", self.library:saveconfig())
+		writefile("loraxianhaxx"..currentname..".cfg", self.library:saveconfig())
 		create[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		create[2].BorderColor3 = Color3.fromRGB(12,12,12)
