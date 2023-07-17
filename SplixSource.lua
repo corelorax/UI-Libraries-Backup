@@ -4498,7 +4498,7 @@ function sections:configloader(props)
 			v.title:Remove()
 		end
 		createdbuttons = {}
-		for i,v in pairs(listfiles(loraxianhaxx)) do
+		for i,v in pairs(listfiles("loraxianhaxx")) do
 			if v:sub(-4) == ".cfg" then
 				if i == 1 then 
 					makebutton(v:sub(#tostring(loraxianhaxx)+2, -5),true)
