@@ -4501,9 +4501,9 @@ function sections:configloader(props)
 		for i,v in pairs(listfiles(loraxianhaxx)) do
 			if v:sub(-4) == ".cfg" then
 				if i == 1 then 
-					makebutton(v:sub(#tostring(folder)+2, -5),true)
+					makebutton(v:sub(#tostring(loraxianhaxx)+2, -5),true)
 				else
-					makebutton(v:sub(#tostring(folder)+2, -5),false)
+					makebutton(v:sub(#tostring(loraxianhaxx)+2, -5),false)
 				end
 			end
 		end
@@ -4558,14 +4558,14 @@ function sections:configloader(props)
 	end)
 	--
 	load[3].MouseButton1Down:Connect(function()
-		self.library:loadconfig(folder..selected.name..".cfg")
+		self.library:loadconfig(loraxianhaxx..selected.name..".cfg")
 		load[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		load[2].BorderColor3 = Color3.fromRGB(12,12,12)
 	end)
 	--
 	delete[3].MouseButton1Down:Connect(function()
-		delfile(folder..selected.name..".cfg")
+		delfile(loraxianhaxx..selected.name..".cfg")
 		delete[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		delete[2].BorderColor3 = Color3.fromRGB(12,12,12)
