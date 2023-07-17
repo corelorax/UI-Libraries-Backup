@@ -162,7 +162,7 @@ function library:new(props)
 			BackgroundColor3 = color,
 			BorderColor3 = Color3.fromRGB(12, 12, 12),
 			BorderSizePixel = 1,
-			Size = UDim2.new(0,500,0,650),
+			Size = UDim2.new(0,600,0,790),
 			Position = UDim2.new(0.5,0,0.5,0),
 			Parent = screen
 		}
@@ -4082,7 +4082,7 @@ end
 --
 function sections:configloader(props)
 	-- // properties
-	local folder = props.folder or props.Folder or props.loraxianhaxx
+	local folder = props.folder or props.Folder
 	-- // variables
 	local configloader = {}
 	-- // main
@@ -4498,12 +4498,12 @@ function sections:configloader(props)
 			v.title:Remove()
 		end
 		createdbuttons = {}
-		for i,v in pairs(listfiles("loraxianhaxx")) do
+		for i,v in pairs(listfiles(folder)) do
 			if v:sub(-4) == ".cfg" then
 				if i == 1 then 
-					makebutton(v:sub(#tostring(loraxianhaxx)+2, -5),true)
+					makebutton(v:sub(#tostring(folder)+2, -5),true)
 				else
-					makebutton(v:sub(#tostring(loraxianhaxx)+2, -5),false)
+					makebutton(v:sub(#tostring(folder)+2, -5),false)
 				end
 			end
 		end
@@ -4558,14 +4558,14 @@ function sections:configloader(props)
 	end)
 	--
 	load[3].MouseButton1Down:Connect(function()
-		self.library:loadconfig(loraxianhaxx..selected.name..".cfg")
+		self.library:loadconfig(folder..selected.name..".cfg")
 		load[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		load[2].BorderColor3 = Color3.fromRGB(12,12,12)
 	end)
 	--
 	delete[3].MouseButton1Down:Connect(function()
-		delfile(loraxianhaxx..selected.name..".cfg")
+		delfile(folder..selected.name..".cfg")
 		delete[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		delete[2].BorderColor3 = Color3.fromRGB(12,12,12)
@@ -4574,7 +4574,7 @@ function sections:configloader(props)
 	end)
 	--
 	save[3].MouseButton1Down:Connect(function()
-		writefile(loraxianhaxx..selected.name..".cfg", self.library:saveconfig())
+		writefile(folder..selected.name..".cfg", self.library:saveconfig())
 		save[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		save[2].BorderColor3 = Color3.fromRGB(12,12,12)
@@ -4583,7 +4583,7 @@ function sections:configloader(props)
 	end)
 	--
 	create[3].MouseButton1Down:Connect(function()
-		writefile(loraxianhaxx..currentname..".cfg", self.library:saveconfig())
+		writefile(folder..currentname..".cfg", self.library:saveconfig())
 		create[2].BorderColor3 = self.library.theme.accent
 		wait(0.05)
 		create[2].BorderColor3 = Color3.fromRGB(12,12,12)
