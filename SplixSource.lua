@@ -1475,16 +1475,17 @@ function multisections:section(props)
 		}
 	)
 	-- // mssection tbl
-	mssection = {
-		["library"] = self.library,
-		["outline"] = outline,
-		["r_line"] = r_line,
-		["l_line"] = l_line,
-		["line"] = line,
-		["content"] = content,
-		["open"] = false,
-		["pointers"] = {}
-	}
+    mssection = {
+        ["library"] = self.library,
+        ["outline"] = outline,
+        ["r_line"] = r_line,
+        ["l_line"] = l_line,
+        ["line"] = line,
+        ["content"] = content,
+        ["open"] = false,
+        ["pointers"] = {},
+        ["page"] = props.page --// added this shit cuz multisections wouldnt be working without this. Fixed by amlorax on discord
+    }    
 	--
 	table.insert(self.mssections,mssection)
 	--
