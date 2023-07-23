@@ -1484,7 +1484,7 @@ function multisections:section(props)
         ["content"] = content,
         ["open"] = false,
         ["pointers"] = {},
-        ["page"] = props.page --// added this shit cuz multisections wouldnt be working without this. Fixed by amlorax on discord
+        ["page"] = props.page --// "we dont need this man what the heck?" - loraxian.dev
     }    
 	--
 	table.insert(self.mssections,mssection)
