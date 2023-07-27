@@ -160,7 +160,7 @@ function library:new(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = color,
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,559,0,650),
 			Position = UDim2.new(0.5,0,0.5,0),
@@ -173,7 +173,7 @@ function library:new(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-4,1,-4),
 			Position = UDim2.new(0.5,0,0.5,0),
@@ -225,7 +225,7 @@ function library:new(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -278,7 +278,7 @@ function library:new(props)
 		{
 			AnchorPoint = Vector2.new(0.5,1),
 			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,-20),
@@ -424,7 +424,7 @@ function library:watermark()
 		{
 			AnchorPoint = Vector2.new(1,0),
 			BackgroundColor3 = self.theme.accent,
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,300,0,26),
 			Position = UDim2.new(1,-10,0,10),
@@ -441,7 +441,7 @@ function library:watermark()
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-4,1,-4),
 			Position = UDim2.new(0.5,0,0.5,0),
@@ -570,7 +570,7 @@ function library:loader(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(168, 52, 235),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,300,0,90),
 			Position = UDim2.new(0.5,0,0.5,0),
@@ -585,7 +585,7 @@ function library:loader(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-4,1,-4),
 			Position = UDim2.new(0.5,0,0.5,0),
@@ -659,7 +659,7 @@ function library:loader(props)
 			"Frame",
 			{
 				BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-				BorderColor3 = Color3.fromRGB(12, 12, 12),
+				BorderColor3 = Color3.fromRGB(4, 4, 4),
 				BorderMode = "Inset",
 				BorderSizePixel = 1,
 				Position = UDim2.new(0,0,0,0),
@@ -875,7 +875,7 @@ function library:page(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,75,1,0),
@@ -1129,7 +1129,7 @@ function pages:section(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -1235,7 +1235,7 @@ function pages:multisection(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -1302,7 +1302,7 @@ function pages:multisection(props)
 		{
 			AnchorPoint = Vector2.new(0.5,1),
 			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-6,1,-27),
@@ -1369,7 +1369,7 @@ function multisections:section(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,60,0,20),
@@ -1548,7 +1548,7 @@ function sections:toggle(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,15,0,15),
@@ -1691,7 +1691,7 @@ function sections:button(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -1751,7 +1751,7 @@ function sections:button(props)
 		outline.BorderColor3 = self.library.theme.accent
 		table.insert(self.library.themeitems["accent"]["BorderColor3"],outline)
 		wait(0.05)
-		outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 		local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 		if find then
 			table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -1795,7 +1795,7 @@ function sections:slider(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,12),
@@ -1959,7 +1959,7 @@ function sections:slider(props)
 	uis.InputEnded:Connect(function(Input)
 		if Input.UserInputType.Name == 'MouseButton1' and slider.holding then
 			slider.holding = false
-			outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+			outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 			local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 			if find then
 				table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -2075,7 +2075,7 @@ function sections:dropdown(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,20),
@@ -2355,7 +2355,7 @@ function sections:buttonbox(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,20),
@@ -2630,7 +2630,7 @@ function sections:multibox(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,20),
@@ -2984,7 +2984,7 @@ function sections:textbox(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,20),
@@ -3093,7 +3093,7 @@ function sections:textbox(props)
 	tbox.FocusLost:Connect(function(enterPressed)
 		textbox.current = tbox.Text
 		callback(tbox.Text)
-		outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 		local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 		if find then
 			table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -3174,7 +3174,7 @@ function sections:keybind(props)
 		{
 			AnchorPoint = Vector2.new(1,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,40,1,0),
@@ -3289,7 +3289,7 @@ function sections:keybind(props)
 	button.MouseButton2Down:Connect(function()
 		keybind.down = false
 		keybind.current = {nil,nil}
-		outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 		local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 		if find then
 			table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -3302,7 +3302,7 @@ function sections:keybind(props)
 		outline.Size = UDim2.new(0,value.TextBounds.X+20,1,0)
 		keybind.down = false
 		keybind.current = {typeis,utility.splitenum(current)}
-		outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+		outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 		local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 		if find then
 			table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -3401,7 +3401,7 @@ function keybinds:set(key)
 			--
 			if keybind.down then
 				keybind.down = false
-				keybind.outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
+				keybind.outline.BorderColor3 = Color3.fromRGB(4, 4, 4)
 				local find = table.find(self.library.themeitems["accent"]["BorderColor3"],keybind.outline)
 				if find then
 					table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
@@ -3437,7 +3437,7 @@ function sections:colorpicker(props)
 		{
 			AnchorPoint = Vector2.new(1,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,30,1,0),
@@ -3514,7 +3514,7 @@ function sections:colorpicker(props)
 		{
 			AnchorPoint = Vector2.new(0,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,0,230),
@@ -3576,7 +3576,7 @@ function sections:colorpicker(props)
 		{
 			AnchorPoint = Vector2.new(0,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0.875,0,0,150),
@@ -3631,7 +3631,7 @@ function sections:colorpicker(props)
 		{
 			AnchorPoint = Vector2.new(1,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0.05,0,0,150),
@@ -3685,7 +3685,7 @@ function sections:colorpicker(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
 			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,12,0,6),
@@ -3726,7 +3726,7 @@ function sections:colorpicker(props)
 			"Frame",
 			{
 				BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-				BorderColor3 = Color3.fromRGB(12, 12, 12),
+				BorderColor3 = Color3.fromRGB(4, 4, 4),
 				BorderMode = "Inset",
 				BorderSizePixel = 1,
 				Position = UDim2.new(0,0,0,0),
@@ -4100,7 +4100,7 @@ function sections:configloader(props)
 		"Frame",
 		{
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -4143,7 +4143,7 @@ function sections:configloader(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0),
 			BackgroundColor3 = self.library.theme.accent,
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-6,0,1),
@@ -4170,7 +4170,7 @@ function sections:configloader(props)
 		{
 			AnchorPoint = Vector2.new(0.5,0),
 			BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-			BorderColor3 = Color3.fromRGB(12, 12, 12),
+			BorderColor3 = Color3.fromRGB(4, 4, 4),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,-10,0,120),
@@ -4320,7 +4320,7 @@ function sections:configloader(props)
 			"Frame",
 			{
 				BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-				BorderColor3 = Color3.fromRGB(12, 12, 12),
+				BorderColor3 = Color3.fromRGB(4, 4, 4),
 				BorderMode = "Inset",
 				BorderSizePixel = 1,
 				Position = UDim2.new(0,0,0,0),
@@ -4403,7 +4403,7 @@ function sections:configloader(props)
 			"Frame",
 			{
 				BackgroundColor3 = Color3.fromRGB(24, 24, 24),
-				BorderColor3 = Color3.fromRGB(12, 12, 12),
+				BorderColor3 = Color3.fromRGB(4, 4, 4),
 				BorderMode = "Inset",
 				BorderSizePixel = 1,
 				Position = UDim2.new(0,0,0,0),
