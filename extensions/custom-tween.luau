@@ -1,6 +1,6 @@
 -- custom tween
 
-local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/Events-for-UI-libraries/refs/heads/main/API%2BSignals.lua"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/corelorax/UI-Libs-Events/refs/heads/main/API%2BSignals.luau"))()
 
 local render = game:GetService("RunService").RenderStepped
 local sqrt, sin, pi, halfpi, doublepi = math.sqrt, math.sin, math.pi, math.pi / 2, math.pi * 2
